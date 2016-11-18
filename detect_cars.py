@@ -12,7 +12,7 @@ import os
 from sklearn.cluster import KMeans
 import MyBow
 
-datapath=r'E:\opencv_test\chapter7\CarData\CarData\TrainImages'
+datapath=r'.\CarData\CarData\TrainImages'
 
 def path(cls,i):
     return '%s\%s%d.pgm' % (datapath,cls,i)
